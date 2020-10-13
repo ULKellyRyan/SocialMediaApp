@@ -7,4 +7,7 @@
     <string name="newPost">What\'s on your mind?</string>
     <string name="createPost">Create Post</string>
     <string name="bookOfFaces">Book of Faces</string>
+    <string name="Communicator" />
+    <string name="communicator">Communicator</string>
+    <string name="logOut">Log Out</string>
 </resources>

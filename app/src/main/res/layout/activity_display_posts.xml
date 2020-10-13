@@ -8,71 +8,94 @@
 
     <Button
         android:id="@+id/createPost"
-        android:layout_width="250dp"
-        android:layout_height="57dp"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="91dp"
+        android:layout_marginBottom="32dp"
         android:onClick="createNewPost"
         android:text="@string/createPost"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mostRecentPost5" />
+        app:layout_constraintTop_toBottomOf="@+id/mostRecentPost5"
+        app:layout_constraintVertical_bias="0.995" />
 
     <TextView
         android:id="@+id/recentPosts"
         android:layout_width="245dp"
         android:layout_height="50dp"
         android:layout_marginTop="36dp"
+        android:layout_marginBottom="64dp"
         android:gravity="center_horizontal"
         android:text="@string/RecentPosts"
         android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mostRecentPost1"
+        app:layout_constraintEnd_toEndOf="@+id/createPost"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/createPost"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/mostRecentPost2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="@+id/mostRecentPost1"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mostRecentPost1" />
 
     <TextView
-        android:id="@+id/mostRecentPost1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="@+id/recentPosts"
-        app:layout_constraintStart_toStartOf="@+id/recentPosts"
-        app:layout_constraintTop_toBottomOf="@+id/recentPosts" />
-
-    <TextView
         android:id="@+id/mostRecentPost3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="@+id/mostRecentPost2"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mostRecentPost2" />
 
     <TextView
         android:id="@+id/mostRecentPost4"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="@+id/mostRecentPost3"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mostRecentPost3" />
 
     <TextView
         android:id="@+id/mostRecentPost5"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="@+id/mostRecentPost4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mostRecentPost4" />
+
+    <TextView
+        android:id="@+id/mostRecentPost1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recentPosts" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
