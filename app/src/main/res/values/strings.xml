@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SocialMediaApp</string>
+    <string name="login">Login</string>
+    <string name="RecentPosts">Recent Posts</string>
+    <string name="enterNewPost">What\'s on your mind?</string>
+    <string name="post">post</string>
+    <string name="newPost">What\'s on your mind?</string>
+    <string name="createPost">Create Post</string>
+    <string name="bookOfFaces">Book of Faces</string>
+</resources>
